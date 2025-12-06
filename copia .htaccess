@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteBase /Inventario/
+
+RewriteCond %{REQUEST_URI} !^/Inventario/public/
+RewriteRule ^(.*)$ public/index.php?url=$1 [QSA,L]
+

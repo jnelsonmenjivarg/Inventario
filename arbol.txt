@@ -1,0 +1,149 @@
+Listado de rutas de carpetas para el volumen OS
+El número de serie del volumen es 92EB-69F2
+C:.
+¦   .htaccess
+¦   arbol.txt
+¦   generar_hash.php
+¦   index.php
+¦   Inventarbol.txt
+¦   Inventarbol2.txt
+¦   Inventario.txt
+¦   test.php
+¦   
++---app
+¦   ¦   Helpers.php
+¦   ¦   
+¦   +---controllers
+¦   ¦       AuthController.php
+¦   ¦       ClientesController.php
+¦   ¦       ComprasController.php
+¦   ¦       DashboardController.php
+¦   ¦       HomeController.php
+¦   ¦       InventarioController.php
+¦   ¦       ProductosController.php
+¦   ¦       ProveedoresController.php
+¦   ¦       ReportesController.php
+¦   ¦       RolesController.php
+¦   ¦       UsuariosController.php
+¦   ¦       VentasController.php
+¦   ¦       
+¦   +---core
+¦   ¦       Auth.php
+¦   ¦       Controller.php
+¦   ¦       Database.php
+¦   ¦       Helpers.php
+¦   ¦       Model.php
+¦   ¦       PDF.php
+¦   ¦       Permission.php
+¦   ¦       
+¦   +---models
+¦   ¦       Cliente.php
+¦   ¦       Compra.php
+¦   ¦       Inventario.php
+¦   ¦       Producto.php
+¦   ¦       Proveedor.php
+¦   ¦       Rol.php
+¦   ¦       Usuario.php
+¦   ¦       Venta.php
+¦   ¦       VentaDetalle.php
+¦   ¦       
+¦   +---reports
+¦   ¦       compras.php
+¦   ¦       existencias.php
+¦   ¦       productos_stock.php
+¦   ¦       ventas.php
+¦   ¦       ventas_compras_mensual.php
+¦   ¦       _style.php
+¦   ¦       
+¦   +---views
+¦       +---auth
+¦       ¦       login.php
+¦       ¦       
+¦       +---clientes
+¦       ¦       crear.php
+¦       ¦       editar.php
+¦       ¦       index.php
+¦       ¦       
+¦       +---compras
+¦       ¦       crear.php
+¦       ¦       index.php
+¦       ¦       ver.php
+¦       ¦       
+¦       +---dashboard
+¦       ¦       admin.php
+¦       ¦       bodega.php
+¦       ¦       cajero.php
+¦       ¦       home.php
+¦       ¦       index.php
+¦       ¦       
+¦       +---home
+¦       ¦       dashboard.php
+¦       ¦       
+¦       +---inventario
+¦       ¦       crear.php
+¦       ¦       editar.php
+¦       ¦       index.php
+¦       ¦       
+¦       +---layout
+¦       ¦       footer.php
+¦       ¦       header.php
+¦       ¦       sidebar.php
+¦       ¦       
+¦       +---productos
+¦       ¦       crear.php
+¦       ¦       editar.php
+¦       ¦       index.php
+¦       ¦       ver.php
+¦       ¦       
+¦       +---proveedores
+¦       ¦       clientes.php
+¦       ¦       crear.php
+¦       ¦       editar.php
+¦       ¦       index.php
+¦       ¦       inventario.php
+¦       ¦       usuarios.php
+¦       ¦       
+¦       +---roles
+¦       ¦       crrear.php
+¦       ¦       editar.php
+¦       ¦       index.php
+¦       ¦       
+¦       +---usuarios
+¦       ¦       crear.php
+¦       ¦       editar.php
+¦       ¦       index.php
+¦       ¦       mostrar.php
+¦       ¦       
+¦       +---ventas
+¦               crear.php
+¦               index.php
+¦               ver.php
+¦               
++---config
+¦       app.php
+¦       routes.php
+¦       
++---dompdf
++---public
+¦   ¦   index.php
+¦   ¦   
+¦   +---assets
+¦   ¦   +---icons
+¦   ¦   +---img
+¦   +---css
+¦   ¦       app.css
+¦   ¦       sidebar.css
+¦   ¦       styles.css
+¦   ¦       
+¦   +---js
+¦   ¦       app.js
+¦   ¦       clientes.js
+¦   ¦       inventario.js
+¦   ¦       productos.js
+¦   ¦       proveedores.js
+¦   ¦       vaidacion.js
+¦   ¦       
+¦   +---uploads
++---sql
+        inventario_baratillo.sql
+        
