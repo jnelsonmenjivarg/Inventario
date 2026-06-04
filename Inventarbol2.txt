@@ -1,0 +1,113 @@
+Listado de rutas de carpetas para el volumen OS
+El número de serie del volumen es 92EB-69F2
+C:.
+¦   .htaccess
+¦   index.php
+¦   Inventarbol.txt
+¦   Inventarbol2.txt
+¦   Inventario.txt
+¦   
++---app
+¦   ¦   Helpers.php
+¦   ¦   
+¦   +---core
+¦           Auth.php
+¦           Controller.php
+¦           Database.php
+¦           Helpers.php
+¦           Model.php
+¦           
++---config
+¦       app.php
+¦       routes.php
+¦       
++---controllers
+¦       AuthController.php
+¦       ClientesController.php
+¦       DashboardController.php
+¦       HomeController.php
+¦       Inventarbol.txt
+¦       InventarioController.php
+¦       ProductosController.php
+¦       ProveedoresController.php
+¦       UsuariosController.php
+¦       VentasController.php
+¦       
++---models
+¦       Cliente.php
+¦       Inventario.php
+¦       Producto.php
+¦       Proveedor.php
+¦       Usuario.php
+¦       Venta.php
+¦       
++---public
+¦   ¦   index.php
+¦   ¦   
+¦   +---assets
+¦   ¦   +---icons
+¦   ¦   +---img
+¦   +---css
+¦   ¦       styles.css
+¦   ¦       
+¦   +---js
+¦   ¦       app.js
+¦   ¦       clientes.js
+¦   ¦       inventario.js
+¦   ¦       productos.js
+¦   ¦       proveedores.js
+¦   ¦       vaidacion.js
+¦   ¦       
+¦   +---uploads
++---sql
+¦       inventario_baratillo.sql
+¦       
++---views
+    +---auth
+    ¦       login.php
+    ¦       
+    +---clientes
+    ¦       crear.php
+    ¦       editar.php
+    ¦       index.php
+    ¦       
+    +---dashboard
+    ¦       home.php
+    ¦       index.php
+    ¦       
+    +---home
+    ¦       dashboard.php
+    ¦       
+    +---inventario
+    ¦       crear.php
+    ¦       editar.php
+    ¦       index.php
+    ¦       
+    +---layout
+    ¦       footer.php
+    ¦       header.php
+    ¦       sidebar.php
+    ¦       
+    +---productos
+    ¦       crear.php
+    ¦       editar.php
+    ¦       index.php
+    ¦       ver.php
+    ¦       
+    +---proveedores
+    ¦       clientes.php
+    ¦       crear.php
+    ¦       editar.php
+    ¦       index.php
+    ¦       inventario.php
+    ¦       usuarios.php
+    ¦       
+    +---usuarios
+    ¦       crear.php
+    ¦       editar.php
+    ¦       index.php
+    ¦       mostrar.php
+    ¦       
+    +---ventas
+            crear.php
+            

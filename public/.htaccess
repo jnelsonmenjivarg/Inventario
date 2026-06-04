@@ -1,0 +1,8 @@
+RewriteEngine On
+
+# Si el archivo existe físicamente en la carpeta public, dáselo al navegador
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Si NO existe, envíalo al index.php (enrutador)
+RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]

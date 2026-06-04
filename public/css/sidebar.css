@@ -1,0 +1,39 @@
+/* Estilo para los botones del menú lateral */
+.nav-menu {
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+}
+
+.nav-menu li {
+    background: #34495e; /* Color base del botón */
+    color: white;
+    padding: 12px 20px;
+    margin-bottom: 8px; /* Espacio entre botones */
+    border-radius: 6px; /* Bordes redondeados */
+    cursor: pointer;
+    transition: all 0.3s ease; /* Animación suave */
+    display: flex;
+    align-items: center;
+    border-left: 4px solid transparent;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+/* Efecto al pasar el mouse (Hover) */
+.nav-menu li:hover {
+    background: #2980b9; /* Color más claro al pasar el mouse */
+    border-left: 4px solid #3498db;
+    transform: translateX(5px); /* Se mueve un poco a la derecha */
+}
+
+/* Efecto cuando el botón está activo/seleccionado */
+.nav-menu li.active {
+    background: #3498db;
+    font-weight: bold;
+}
+
+/* Estilo para los iconos o emojis dentro del botón */
+.nav-menu li i, .nav-menu li span {
+    margin-right: 10px;
+    font-size: 1.1rem;
+}

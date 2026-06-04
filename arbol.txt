@@ -1,0 +1,187 @@
+Listado de rutas de carpetas para el volumen OS
+El número de serie del volumen es 92EB-69F2
+C:.
+¦   ,htaccess
+¦   arbol.txt
+¦   copia .htaccess
+¦   copia index.php
+¦   generar_hash.php
+¦   Inventarbol.txt
+¦   Inventarbol2.txt
+¦   Inventario.7z
+¦   Inventario.rar
+¦   Inventario.txt
+¦   public.txt
+¦   test.php
+¦   
++---.vscode
+¦       launch.json
+¦       
++---app
+¦   ¦   Helpers.php
+¦   ¦   
+¦   +---controllers
+¦   ¦       AuthController.php
+¦   ¦       ClienteController.php
+¦   ¦       ComprasController.php
+¦   ¦       DashboardController.php
+¦   ¦       HomeController.php
+¦   ¦       InventarioController.php
+¦   ¦       OpcionController.php
+¦   ¦       PermisoController.php
+¦   ¦       ProductoController.php
+¦   ¦       ProveedorController.php
+¦   ¦       ReportesController.php
+¦   ¦       RolController.php
+¦   ¦       SucursalController.php
+¦   ¦       UbicacionController.php
+¦   ¦       UsuarioController.php
+¦   ¦       VentaController.php
+¦   ¦       
+¦   +---core
+¦   ¦       Auth.php
+¦   ¦       Controller.php
+¦   ¦       Database.php
+¦   ¦       Helpers.php
+¦   ¦       Model.php
+¦   ¦       PDF.php
+¦   ¦       Permission.php
+¦   ¦       
+¦   +---models
+¦   ¦       Cliente.php
+¦   ¦       Compra.php
+¦   ¦       Inventario.php
+¦   ¦       Opcion.php
+¦   ¦       Producto.php
+¦   ¦       Proveedor.php
+¦   ¦       Rol.php
+¦   ¦       RolOpcion.php
+¦   ¦       Sucursal.php
+¦   ¦       Ubicacion.php
+¦   ¦       Usuario.php
+¦   ¦       Venta.php
+¦   ¦       VentaDetalle.php
+¦   ¦       
+¦   +---reports
+¦   ¦       compras.php
+¦   ¦       existencias.php
+¦   ¦       productos_stock.php
+¦   ¦       ventas.php
+¦   ¦       ventas_compras_mensual.php
+¦   ¦       _style.php
+¦   ¦       
+¦   +---ubicaciones
+¦   ¦       index.php
+¦   ¦       
+¦   +---views
+¦       +---auth
+¦       ¦       login.php
+¦       ¦       
+¦       +---clientes
+¦       ¦       crear.php
+¦       ¦       editar.php
+¦       ¦       index.php
+¦       ¦       
+¦       +---compras
+¦       ¦       crear.php
+¦       ¦       index.php
+¦       ¦       ver.php
+¦       ¦       
+¦       +---dashboard
+¦       ¦       admin.php
+¦       ¦       bodega.php
+¦       ¦       cajero.php
+¦       ¦       home.php
+¦       ¦       index.php
+¦       ¦       
+¦       +---home
+¦       ¦       dashboard.php
+¦       ¦       
+¦       +---inventario
+¦       ¦       crear.php
+¦       ¦       editar.php
+¦       ¦       index.php
+¦       ¦       
+¦       +---layout
+¦       ¦       footer.php
+¦       ¦       header.php
+¦       ¦       sidebar.php
+¦       ¦       
+¦       +---opciones
+¦       ¦       index.php
+¦       ¦       
+¦       +---permisos
+¦       ¦       index.php
+¦       ¦       
+¦       +---productos
+¦       ¦       crear.php
+¦       ¦       editar.php
+¦       ¦       index.php
+¦       ¦       ver.php
+¦       ¦       
+¦       +---proveedores
+¦       ¦       clientes.php
+¦       ¦       crear.php
+¦       ¦       editar.php
+¦       ¦       index.php
+¦       ¦       inventario.php
+¦       ¦       usuarios.php
+¦       ¦       
+¦       +---roles
+¦       ¦       crrear.php
+¦       ¦       editar.php
+¦       ¦       index.php
+¦       ¦       
+¦       +---sucursales
+¦       ¦       index.php
+¦       ¦       
+¦       +---ubicaciones
+¦       ¦       index.php
+¦       ¦       
+¦       +---usuarios
+¦       ¦       crear.php
+¦       ¦       editar.php
+¦       ¦       index.php
+¦       ¦       mostrar.php
+¦       ¦       
+¦       +---ventas
+¦               crear.php
+¦               index.php
+¦               nueva.php
+¦               ticket.php
+¦               ver.php
+¦               
++---config
+¦       app.php
+¦       db.php
+¦       routes.php
+¦       
++---Eliminar
++---public
+¦   ¦   .htaccess
+¦   ¦   generarhash.php
+¦   ¦   index.php
+¦   ¦   test_ruta.php
+¦   ¦   
+¦   +---assets
+¦   ¦   +---icons
+¦   ¦   +---img
+¦   +---css
+¦   ¦       app.css
+¦   ¦       dashboard.css
+¦   ¦       sidebar.css
+¦   ¦       styles.css
+¦   ¦       
+¦   +---js
+¦   ¦       app.js
+¦   ¦       clientes.js
+¦   ¦       inventario.js
+¦   ¦       main,js
+¦   ¦       productos.js
+¦   ¦       proveedores.js
+¦   ¦       vaidacion.js
+¦   ¦       
+¦   +---uploads
++---sql
+        inventario_baratillo.sql
+        

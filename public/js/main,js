@@ -1,0 +1,38 @@
+/* --- FUNCIONES GENERALES DEL SISTEMA --- */
+
+// Función para abrir el modal (Genérica)
+function abrirModal(tipo, datos = null) {
+    // Si es Inventario
+    if (tipo === 'producto') {
+        const modal = document.getElementById('modalProducto');
+        const form = document.getElementById('formProducto');
+        if(!modal) return;
+
+        modal.style.display = 'flex';
+
+        if (datos) {
+            document.getElementById('modalTitle').innerText = 'Editar Producto';
+            document.getElementById('prod_id').value = datos.id_producto;
+            document.getElementById('prod_desc').value = datos.descripcion;
+            document.getElementById('prod_stock').value = datos.stock;
+            document.getElementById('prod_precio').value = datos.precio;
+        } else {
+            form.reset();
+            document.getElementById('modalTitle').innerText = 'Nuevo Producto';
+            document.getElementById('prod_id').value = '';
+        }
+    }
+}
+
+// Función para cerrar cualquier modal
+function cerrarModal(idModal) {
+    const modal = document.getElementById(idModal);
+    if(modal) modal.style.display = 'none';
+}
+
+// Confirmación para eliminar
+function confirmarEliminar(id, nombre, entidad) {
+    if (confirm(`¿Estás seguro de eliminar "${nombre}"?`)) {
+        window.location.href = `/${entidad}/eliminar?id=${id}`;
+    }
+}
